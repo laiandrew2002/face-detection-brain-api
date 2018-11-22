@@ -36,7 +36,7 @@ const handleSignin = (bcrypt, db) => (req, res) => {
     //     res.status(400).json('error logging in')
     //   }
       
-  }
+}
 
   module.exports = {
       handleSignin:handleSignin
